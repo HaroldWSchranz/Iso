@@ -12,7 +12,7 @@ public class CameraSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        CameraOne();
     }
 
     // Update is called once per frame
@@ -49,6 +49,7 @@ public class CameraSwitch : MonoBehaviour
     void CameraTwo()
     {
         Camera1.SetActive(false);
+
         Camera2.SetActive(true);
         Camera3.SetActive(false);
         Camera4.SetActive(false);
